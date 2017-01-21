@@ -1,4 +1,6 @@
+/* Hide Navbar when menu item is selected */
 $('.nav a').on('click', function() { $('.navbar-collapse').collapse('hide').click() });
+$('.navbar-header a').on('click', function() { $('.navbar-collapse').collapse('hide').click() });
 
 /* Replace all SVG images with inline SVG - acquired from Drew Baker at Stack Overflow: http://stackoverflow.com/questions/11978995/how-to-change-color-of-svg-image-using-css-jquery-svg-image-replacement*/
 jQuery('img.svg').each(function() {
