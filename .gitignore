@@ -112,3 +112,6 @@ fabric.properties
 # *.ipr
 
 # End of https://www.gitignore.io/api/macos,jetbrains,webstorm
+
+# Non gitignore.io-generated lines below...
+node_modules
