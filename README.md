@@ -6,7 +6,7 @@
 
 I probably didn't need to use Gulp or SASS to complete this website, but I was using the project as an excuse to improve my workflow and integrate widely-used technologies.
 
-<u>To-do List</u>
+<u>To-Do List</u>
 <ul>
 <li>Add content</li>
 <li>Optimize SVG files for tech logos</li>
