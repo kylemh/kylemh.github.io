@@ -1,5 +1,15 @@
 <h1>Personal Portfolio Website</h1>
 
-<b><i>Currently Under Construction...</i></b>
+<h2>Live @ <a href="http://kylemh.com">kylemh.com</a></h2>
 
-Live @ kylemh.com
+<i><b>CURRENTLY UNDER CONSTRUCTION</b></li>
+
+I probably didn't need to use Gulp or SASS to complete this website, but I was using the project as an excuse to improve my workflow and integrate widely-used technologies.
+
+<u>To-do List</u>
+<ul>
+<li>Add content</li>
+<li>Optimize SVG files for tech logos</li>
+<li>Setup Gulp automation</li>
+<li>Start using SASS</li>
+</ul>
