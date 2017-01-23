@@ -1,0 +1,178 @@
+/* Media Queries */
+@media only screen and (max-width: 767px) {
+	.navbar-brand {
+		transform: translateX(-50%);
+		left: 50%;
+		position: absolute;
+	}
+
+	.massive-text {
+		padding-top: 200px;
+	}
+}
+
+/* ------ iPhone 4/4S, 5/5S, 6, 6+ ------ */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	.navbar-brand {
+		transform: translateX(-50%);
+		left: 50%;
+		position: absolute;
+	}
+
+	.massive-text {
+		padding-top: 150px;
+	}
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+	.navbar-brand {
+		transform: translateX(-50%);
+		left: 50%;
+		position: absolute;
+	}
+
+	.massive-text {
+		padding-top: 150px;
+	}
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+	.navbar-brand {
+		transform: translateX(-50%);
+		left: 50%;
+		position: absolute;
+	}
+
+	.massive-text {
+		padding-top: 150px;
+	}
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+	.navbar-brand {
+		transform: translateX(-50%);
+		left: 50%;
+		position: absolute;
+	}
+
+	.massive-text {
+		padding-top: 150px;
+	}
+}
+
+/* ----------- Galaxy S3, S4, S5 ----------- */
+/* Portrait and Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+	.navbar-brand {
+		transform: translateX(-50%);
+		left: 50%;
+		position: absolute;
+	}
+
+	.massive-text {
+		padding-top: 150px;
+	}
+}
+
+/* Portrait and Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+	.navbar-brand {
+		transform: translateX(-50%);
+		left: 50%;
+		position: absolute;
+	}
+
+	.massive-text {
+		padding-top: 150px;
+	}
+}
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+	.navbar-brand {
+		transform: translateX(-50%);
+		left: 50%;
+		position: absolute;
+	}
+
+	.massive-text {
+		padding-top: 150px;
+	}
+}
+
+/* ----------- HTC One ----------- */
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+	.navbar-brand {
+		transform: translateX(-50%);
+		left: 50%;
+		position: absolute;
+	}
+
+	.massive-text {
+		padding-top: 150px;
+	}
+}
+
+/* Style */
+.navbar .navbar-nav {
+	float: none;
+	vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
+}
+
+.self-pic {
+	max-height: 300px;
+	width: auto;
+}
+
+/* TODO - Don't allow content to leak to other sections */
+.icon {
+	padding-top: 10%;
+}
+
+svg {
+	width: 128px;
+	max-width: 100%;
+	height: auto;
+}
+
+path {
+	transition: 250ms;
+	transition-timing-function: ease-in-out;
+	-webkit-transition: 250ms;
+	-webkit-transition-timing-function: ease-in-out;
+}
+svg:hover path {
+	fill: #00a379;
+}
+
+html {
+	color: #FFFFFF;
+	font-family: Raleway, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 4em;
+	padding-top: 100px;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+ol>li {
+	list-style: none;
+}
