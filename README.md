@@ -10,6 +10,5 @@ I probably didn't need to use Gulp or SASS to complete this website, but I was u
 <ul>
 <li>Add content</li>
 <li>Optimize SVG files for tech logos</li>
-<li>Setup Gulp automation</li>
 <li>Start using SASS</li>
 </ul>
