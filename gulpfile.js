@@ -35,7 +35,7 @@ function styles() {
 
 // Compress .js files to min.js files and move minified files to distribution directory
 function scripts() {
-  return gulp.src(paths.scripts.src, {sourcemaps: true})
+  return gulp.src(['./src/js/jquery.js', paths.scripts.src], {sourcemaps: true})
     .pipe(babel())
     .pipe(uglify())
     .pipe(concat('main.min.js'))
@@ -52,7 +52,7 @@ gulp.task('server', function(done) {
 function watch() {
 	gulp.watch(paths.scripts.src, scripts);
 	gulp.watch(paths.styles.src, styles);
-	gulp.watch('*.html').on('change', bsync.reload);
+	gulp.watch('./*.html').on('changes', bsync.reload);
 }
 
 // Generate tasks
