@@ -1,3 +1,7 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i|Source+Sans+Pro:400,700');
+
+
 /* Media Queries */
 @media only screen and (max-width: 767px) {
 	.navbar-brand {
@@ -15,8 +19,13 @@
 		left: 50%;
 		position: absolute;
 	}
-	.massive-text {
+	h1 {
 		padding-top: 150px;
+		font-size: 8rem;
+	}
+
+	h2 {
+		font-size: 6rem;
 	}
 }
 
@@ -27,8 +36,12 @@
 		left: 50%;
 		position: absolute;
 	}
-	.massive-text {
+	h1 {
 		padding-top: 150px;
+		font-size: 8rem;
+	}
+	h2 {
+		font-size: 6rem;
 	}
 }
 
@@ -39,8 +52,12 @@
 		left: 50%;
 		position: absolute;
 	}
-	.massive-text {
+	h1 {
 		padding-top: 150px;
+		font-size: 8rem;
+	}
+	h2 {
+		font-size: 6rem;
 	}
 }
 
@@ -51,8 +68,12 @@
 		left: 50%;
 		position: absolute;
 	}
-	.massive-text {
+	h1 {
 		padding-top: 150px;
+		font-size: 8rem;
+	}
+	h2 {
+		font-size: 6rem;
 	}
 }
 
@@ -64,8 +85,12 @@
 		left: 50%;
 		position: absolute;
 	}
-	.massive-text {
+	h1 {
 		padding-top: 150px;
+		font-size: 8rem;
+	}
+	h2 {
+		font-size: 6rem;
 	}
 }
 
@@ -76,8 +101,12 @@
 		left: 50%;
 		position: absolute;
 	}
-	.massive-text {
+	h1 {
 		padding-top: 150px;
+		font-size: 8rem;
+	}
+	h2 {
+		font-size: 6rem;
 	}
 }
 
@@ -88,8 +117,12 @@
 		left: 50%;
 		position: absolute;
 	}
-	.massive-text {
+	h1 {
 		padding-top: 150px;
+		font-size: 8rem;
+	}
+	h2 {
+		font-size: 6rem;
 	}
 }
 
@@ -101,8 +134,12 @@
 		left: 50%;
 		position: absolute;
 	}
-	.massive-text {
+	h1 {
 		padding-top: 150px;
+		font-size: 8rem;
+	}
+	h2 {
+		font-size: 6rem;
 	}
 }
 
@@ -155,6 +192,10 @@ html {
 
 /* Style */
 .navbar {
+	.navbar-brand {
+		font-size: 1.5em;
+	}
+
 	.navbar-nav {
 		float: none;
 		vertical-align: top;
@@ -162,6 +203,9 @@ html {
 	.navbar-collapse {
 		text-align: center;
 	}
+
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
 }
 
 .self-pic {
@@ -169,13 +213,12 @@ html {
 	width: auto;
 }
 
-
-/* TODO - Don't allow content to leak to other sections */
 .icon {
 	padding-top: 10%;
 }
 
 svg {
+	fill: #FFF;
 	width: 128px;
 	max-width: 100%;
 	height: auto;
@@ -192,18 +235,25 @@ svg:hover path {
 	fill: #00a379;
 }
 
-html {
-	color: #FFFFFF;
-	font-family: Raleway, Helvetica, sans-serif;
-}
-
 h1 {
-	font-size: 4em;
+	font-size: 10rem;
 	padding-top: 100px;
+	font-weight: 700;
 }
 
 h2 {
-	font-size: 3em;
+	font-size: 7rem;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 4rem;
+	font-weight: 400;
+}
+
+h4 {
+	font-size: 2rem;
+	font-weight: 400;
 }
 
 p {
