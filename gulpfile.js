@@ -9,7 +9,7 @@ var bsync = require('browser-sync').create();
 
 var paths = {
 	styles: {
-		src: './src/scss/**/*.{scss,sass}',
+		src: './src/scss/**/*.{scss,sass,css}',
 		dest: './dist/css/'
 	},
 	scripts: {
@@ -36,7 +36,7 @@ function styles() {
 
 // Compress .js files to min.js files and move minified files to distribution directory
 function scripts() {
-	return gulp.src(['./src/js/jquery.js', paths.scripts.src], {sourcemaps: true})
+	return gulp.src(['./src/js/jquery.js', './src/js/tether.js', paths.scripts.src], {sourcemaps: true})
     .pipe(babel())
     .pipe(uglify())
     .pipe(concat('main.min.js'))

@@ -42,4 +42,5 @@ jQuery('img.svg').each(function() {
 						j++;
 						s = decodeURIComponent(s) + a.substr(j, m - j) }
 					t.innerHTML = s.replace(/</g, '&lt;').replace(/>/g, '&gt;');
-					l[i].href = 'mailto:' + t.value } } catch (e) {} } } catch (e) {} })(document); /* ]]> */
+					l[i].href = 'mailto:' + t.value } } catch (e) {} } } catch (e) {} })(document); 
+/* ]]> */

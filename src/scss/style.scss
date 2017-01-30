@@ -19,14 +19,6 @@
 		left: 50%;
 		position: absolute;
 	}
-	h1 {
-		padding-top: 150px;
-		font-size: 8rem;
-	}
-
-	h2 {
-		font-size: 6rem;
-	}
 }
 
 /* Portrait and Landscape */
@@ -35,13 +27,6 @@
 		transform: translateX(-50%);
 		left: 50%;
 		position: absolute;
-	}
-	h1 {
-		padding-top: 150px;
-		font-size: 8rem;
-	}
-	h2 {
-		font-size: 6rem;
 	}
 }
 
@@ -52,13 +37,6 @@
 		left: 50%;
 		position: absolute;
 	}
-	h1 {
-		padding-top: 150px;
-		font-size: 8rem;
-	}
-	h2 {
-		font-size: 6rem;
-	}
 }
 
 /* Portrait and Landscape */
@@ -67,13 +45,6 @@
 		transform: translateX(-50%);
 		left: 50%;
 		position: absolute;
-	}
-	h1 {
-		padding-top: 150px;
-		font-size: 8rem;
-	}
-	h2 {
-		font-size: 6rem;
 	}
 }
 
@@ -85,13 +56,6 @@
 		left: 50%;
 		position: absolute;
 	}
-	h1 {
-		padding-top: 150px;
-		font-size: 8rem;
-	}
-	h2 {
-		font-size: 6rem;
-	}
 }
 
 /* Portrait and Landscape */
@@ -101,13 +65,6 @@
 		left: 50%;
 		position: absolute;
 	}
-	h1 {
-		padding-top: 150px;
-		font-size: 8rem;
-	}
-	h2 {
-		font-size: 6rem;
-	}
 }
 
 /* Portrait and Landscape */
@@ -116,13 +73,6 @@
 		transform: translateX(-50%);
 		left: 50%;
 		position: absolute;
-	}
-	h1 {
-		padding-top: 150px;
-		font-size: 8rem;
-	}
-	h2 {
-		font-size: 6rem;
 	}
 }
 
@@ -134,19 +84,15 @@
 		left: 50%;
 		position: absolute;
 	}
-	h1 {
-		padding-top: 150px;
-		font-size: 8rem;
-	}
-	h2 {
-		font-size: 6rem;
-	}
 }
 
+
 /* Style */
+/*
 .navbar {
 	.navbar-brand {
 		font-size: 1.5em;
+		padding: 13px;
 	}
 
 	.navbar-nav {
@@ -156,40 +102,18 @@
 	.navbar-collapse {
 		text-align: center;
 	}
-
+	
 	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
+}
+
+.nav > li > a {
+	padding: 20px 20px 20px 20px;
 }
 
 .self-pic {
 	max-height: 300px;
 	width: auto;
-}
-
-.icon {
-	padding-top: 10%;
-}
-
-svg {
-	fill: #FFF;
-	width: 200px;
-	height: 200px;
-}
-
-use {
-	max-width: 100px;
-	max-height: 100px;
-}
-
-path {
-	transition: 250ms;
-	transition-timing-function: ease-in-out;
-	-webkit-transition: 250ms;
-	-webkit-transition-timing-function: ease-in-out;
-}
-
-svg:hover path {
-	fill: #00a379;
 }
 
 h1 {
@@ -220,4 +144,22 @@ p {
 
 ol > li {
 	list-style: none;
+}
+*/
+
+svg {
+	fill: #FFF;
+	width: 200px;
+	height: 200px;
+}
+
+path {
+	transition: 250ms;
+	transition-timing-function: ease-in-out;
+	-webkit-transition: 250ms;
+	-webkit-transition-timing-function: ease-in-out;
+}
+
+svg:hover path {
+	fill: #00a379;
 }
