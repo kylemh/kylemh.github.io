@@ -9,7 +9,7 @@ var bsync = require('browser-sync').create();
 
 var paths = {
 	styles: {
-		src: './src/scss/**/*.{scss,sass}',
+		src: './src/scss/**/*.{scss,sass,css}',
 		dest: './dist/css/'
 	},
 	scripts: {
@@ -25,7 +25,7 @@ function clean() {
 
 // Convert Sass/SCSS files to CSS, minify them, and move them to dist
 function styles() {
-	return gulp.src(paths.styles.src)
+	return gulp.src(['src/scss/bootstrap.css', 'src/scss/blackrock_creative.css', paths.styles.src])
 	.pipe(sass())
 	.pipe(concat('main.min.css'))
 	.pipe(cleanCSS())

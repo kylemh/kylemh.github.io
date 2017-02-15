@@ -1,31 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Resumé Website">
+	<meta name="description" content="Resume Website">
 	<meta name="author" content="Kyle Holmberg">
+	
 	<title>Kyle Holmberg</title>
-	<link rel="stylesheet" type="text/css" href="src/scss/bootstrap.min.css">
+
 	<link rel="stylesheet" type="text/css" href="dist/css/main.min.css">
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="50">
-	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<body id="page-top">
+	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div class="container-fluid">
-			<div class="navbar-header page-scroll">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand page-scroll" href="#page-top">KMH</a>
 			</div>
 
-			<div class="collapse navbar-collapse navbar-ex1-collapse">
-				<ul class="nav navbar-nav">
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
 					<li class="hidden"><a class="page-scroll" href="#page-top"><span class="sr-only">(current)</span></a></li>
 					<li><a class="page-scroll" href="#skills">Skills</a></li>
 					<li><a class="page-scroll" href="#projects">Projects</a></li>
@@ -36,74 +37,222 @@
 		</div>
 	</nav>
 
-	<section id="intro">
-		<div class="container-fluid">
-			<h1>Kyle Holmberg</h1>
-			<br>
-			<h4>Addicted to live music, soccer, and indefinitely prototyping</h4>
-		</div>
-	</section>
-
-	<section id="skills">
-		<div class="container-fluid">
-			<h2>Skills</h2>
-			<div class="skills-languages container-fluid">
-				This will be where the grid of svgs go.
-				<svg role="img" title="Adobe Illustrator"><use xlink:href="public/img/map.svg#ai"/></svg>
-				<svg role="img" title="BitBucket"><use xlink:href="public/img/map.svg#bitbucket"/></svg>
-				<svg role="img" title="Bootstrap"><use xlink:href="public/img/map.svg#bootstrap"/></svg>
-			</div>
-			<div class="skills-frameworks container-fluid">
-				This will be where the grid of svgs go.
-			</div>
-			<div class="skills-libraries container-fluid">
-				This will be where the grid of svgs go.
-			</div>
-			<div class="skills-tech container-fluid">
-				This will be where the grid of svgs go.
+	<header>
+		<div class="header-content">
+			<div class="header-content-inner">
+				<h1>Kyle Holmberg</h1>
+				<hr>
+				<p>Addicted to hearing live music, prototyping indefinitely, and watching soccer.</p>
+				<a href="#contact" class="btn btn-primary btn-xl page-scroll">Contact Me</a>
 			</div>
 		</div>
-	</section>
+	</header>
 
-	<section id="projects">
-		<div class="container-fluid">
-			<h2>Projects</h2>
-			<div class="project-array container-fluid">This is where the grid of hover-over, links to live instances of every web application I've created (or GitHub repository for every compilable application).</div>
-		</div>
-	</section>
-
-	<section id="about">
-		<div class="container-fluid">
-			<h2>About</h2>
-			<p>I will graduate from the University of Oregon in June of 2017 with a Bachelor's Degree in Computer Information Sciences minoring in Business Administration.</p>
-		</div>
-		<img src="public/img/me.jpg" alt="My pretty face." class="img-responsive center-block img-circle self-pic">
-		<div class="row-fluid">
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 icon">
-				<a href="2016Resume.pdf"><svg role="img" aria-label="See my Resume in PDF format" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path d="M221.6 262.4h-11.5v-57.7h14.2c10.5 0 15 5.9 15 19.3v18.5c0 15.1-6.7 19.9-17.7 19.9zm54.9 205.5h-30.9v140.8h30.9c20.8 0 32.1-9.5 32.1-39.2v-62.4c-.1-29.7-11.4-39.2-32.1-39.2zm229.8 0h-36.8v297h36.8c20.8 0 33.3-10.7 33.3-40.4V508.3c0-29.7-12.5-40.4-33.3-40.4zM1000 100v800c0 55.2-44.8 100-100 100H100C44.8 1000 0 955.2 0 900V100C0 44.8 44.8 0 100 0h800c55.2 0 100 44.8 100 100zM486.1 320.9c0 30 15 47.2 44 47.2s44-17.2 44-47.2v-143h-27.9v144.8c0 13.4-5.9 18.2-15.3 18.2s-15.3-4.8-15.3-18.2V177.9h-29.5v143zm-197.7 44.8h80.5v-26.8h-51v-55h40.5v-26.8h-40.5v-52.3h51V178h-80.5v187.7zm-107.8 0h29.5v-76.4h10.2c13.4 0 19.3 6.4 19.3 23.9v29.5c0 15.3 1.1 18.2 2.7 23.1h30c-3-7-3.2-13.7-3.2-22.8v-29c0-19.6-4.8-33.5-19.6-39.7v-.5c13.1-6.2 19.3-18.5 19.3-37.8v-14.8c0-29-13.1-43.2-43.7-43.2h-44.5v187.7zm193.3 145.5c0-66.5-32.1-102.7-97.4-102.7h-96.2v415.7h65.3V668h30.9c65.3 0 97.4-36.2 97.4-102.7v-54.1zm52.6-143.4c29 0 44-17.2 44-47.2 0-21.5-7.8-37-32.5-58.7-19.3-16.9-25.2-27.1-25.2-40.8 0-13.4 5.4-18.5 14.8-18.5s14.8 5.1 14.8 18.5v7.8h27.9V223c0-30-14.8-47.2-43.5-47.2S383.3 193 383.3 223c0 21.5 7.8 37 32.5 58.7 19.3 16.9 25.2 27.1 25.2 40.8 0 13.4-5.9 18.2-15.3 18.2s-15.3-4.8-15.3-18.2v-13.4h-27.9v11.5c0 30.1 15.1 47.2 44 47.2zm178.4 143.4c0-66.5-32.1-102.7-97.4-102.7H404.2v415.7h103.3c65.3 0 97.4-36.2 97.4-102.7V511.2zm36.7-145.5h27.9L689.4 231h.5v134.7h27.9V177.9h-41L657 311.2h-.5L635 177.9h-41v187.8h25.8V232.9h.5l21.3 132.8zm177.7 42.8H646.5v415.7h65.3V652.6h84.3v-59.4h-84.3V467.9h107.5v-59.4zm.5-230.6h-80.5v187.8h80.5v-26.8h-51v-55h40.5v-26.8h-40.5v-52.3h51v-26.9z"/></svg></a>
-			</div>
-			
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 icon">
-				<a href="https://www.github.com/kylemh"><svg role="img" aria-label="See my GitHub Account: kylemh" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><title>GitHub Account: kylemh</title><path d="M352.5 999.7c38.8-5.6 22.4-89.5 22.4-118.7-125 25-156.2-31.2-168.7-56.2-6.2-12.5-31.2-56.2-50-68.7-18.7-6.2-43.7-31.2 0-31.2 37.5 0 68.7 37.5 75 50 43.7 68.7 118.7 50 143.7 37.5 6.2-31.2 18.7-56.2 31.2-68.7-75-6.2-150-31.2-187.5-93.7-50-81.2-50-212.5 12.5-287.4-6.2-12.5-25-62.5 6.2-131.2 0 0 43.7-12.5 137.5 50 81.2-25 168.7-25 249.9 0 93.7-62.5 137.5-50 137.5-50 25 68.7 12.5 118.7 6.2 131.2 68.7 75 68.7 206.2 12.5 287.4-43.7 62.5-118.7 87.5-187.5 93.7 43.7 37.5 31.2 106.2 31.2 156.2 0 25-12.5 93.7 25 100h257.9c49.5-3.8 88.9-43.7 92-93.3v-813C996.5 41.4 953.1 0 900 0H100C44.8 0 0 44.8 0 100v800c0 52.6 40.6 95.7 92.2 99.7"/></svg></a>
-			</div>
-
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 icon">
-				<a href="https://www.linkedin.com/in/kylemh"><svg role="img" aria-label="See my LinkedIn Account: kylemh" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path d="M900 0H100C44.8 0 0 44.8 0 100v800c0 55.2 44.8 100 100 100h800c55.2 0 100-44.8 100-100V100c0-55.2-44.8-100-100-100zM295 850.9H149.2V376.4H295v474.5zm-74.5-542.4c-42.9.3-84.5-40.1-83.2-87 1.2-44.3 40.2-84.2 84.5-82.2 49.6-1.5 86 38.8 85.9 83.6-.1 46.1-34.5 85.2-87.2 85.6zm631.1 531.9v10.5H704.5v-10.8c0-82.9.5-165.7-.4-248.6-.2-18.3-3.7-37.3-9.3-54.8-8-25.2-26.6-39.6-53.6-43.2-25.2-3.3-48.4.1-69.6 14.6-16 10.9-23.7 27.3-27.8 44.9-3.6 15.7-5.6 32.2-5.7 48.3-.6 79.5-.3 159-.3 238.5V851H391.2V376.7h138.9v62.7l2.4 1.5c2.3-2.4 4.9-4.6 6.7-7.3 22.3-35.2 54.4-56.4 94.8-64.7 15.6-3.2 31.7-5.9 47.4-5.3 39.7 1.5 78.4 8.4 110.4 34.9 19 15.7 32.1 36 40.7 58.9 8.5 22.8 14.5 46.5 15.3 70.9 1.8 53.9 3 107.8 3.7 161.7.5 50.1.1 100.2.1 150.4z"/></svg></a>
-			</div>
-		</div>
-	</section>
-
-	<section id="contact">
-		<div class="container-fluid">
+	<section class="bg-primary" id="skills">
+		<div class="container">
 			<div class="row">
-				<div class="col-lg-12">
-					<h2>Contact</h2>
-					<a href="mailto:kylemh.email@gmail.com">EMAIL</a>
+				<div class="col-lg-12 text-center">
+					<h2 class="section-heading">Skills</h2>
+					<hr class="primary">
+					<div class="skills-languages">
+						<h3>Programming Languages</h3>
+						<div class="row">
+							<svg role="img" title="Python" class="col-lg-2 col-md-2 col-sm-4 col-xs-4"><use xlink:href="public/img/map.svg#python"></use></svg>
+							<svg role="img" title="Swift" class="col-lg-2 col-md-2 col-sm-4 col-xs-4"><use xlink:href="public/img/map.svg#swift"></use></svg>
+							<svg role="img" title="C" class="col-lg-2 col-md-2 col-sm-4 col-xs-4"><use xlink:href="public/img/map.svg#c"></use></svg>
+							<svg role="img" title="C++" class="col-lg-2 col-md-2 col-sm-4 col-xs-4"><use xlink:href="public/img/map.svg#cpp"></use> </svg>
+							<svg role="img" title="HTML" class="col-lg-2 col-md-2 col-sm-4 col-xs-4"><use xlink:href="public/img/map.svg#html"></use></svg>
+							<svg role="img" title="CSS" class="col-lg-2 col-md-2 col-sm-4 col-xs-4"><use xlink:href="public/img/map.svg#css"></use></svg>
+						</div>	
+					</div>
+
+					<div class="skills-databases">
+						<h3>Database Languages</h3>
+						<div class="row">
+							<svg role="img" title="MySQL" class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-offset-2"><use xlink:href="public/img/map.svg#mysql"></use></svg>
+							<svg role="img" title="PostgreSQL" class="col-lg-2 col-md-2 col-sm-4 col-xs-4"><use xlink:href="public/img/map.svg#postgres"></use></svg>
+						</div>
+					</div>
+
+					<div class="skills-frameworks">
+						<h3>Frameworks</h3>
+						<div class="row">
+							<svg role="img" title="Flask" class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-offset-2"><use xlink:href="public/img/map.svg#flask"></use></svg>
+							<svg role="img" title="Bootstrap" class="col-lg-2 col-md-2 col-sm-4 col-xs-4"><use xlink:href="public/img/map.svg#bootstrap"></use></svg>
+						</div>
+					</div>
+
+					<div class="skills-libraries">
+						<h3>Libraries</h3>
+						<div class="row">
+							<svg role="img" title="d3.js" class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-offset-2"><use xlink:href="public/img/map.svg#d3js"></use></svg>
+							<svg role="img" title="Node.js" class="col-lg-2 col-md-2 col-sm-4 col-xs-4"><use xlink:href="public/img/map.svg#nodejs"></use></svg>
+						</div>
+					</div>
+
+					<div class="skills-tech">
+						<h3>Other Technologies</h3>
+						<div class="row">
+							<svg role="img" title="Git" class="col-lg-2 col-md-2 col-sm-4 col-xs-4"><use xlink:href="public/img/map.svg#git"></use></svg>
+							<svg role="img" title="Shell" class="col-lg-2 col-md-2 col-sm-4 col-xs-4"><use xlink:href="public/img/map.svg#shell"></use></svg>
+							<svg role="img" title="UNIX" class="col-lg-2 col-md-2 col-sm-4 col-xs-4"><use xlink:href="public/img/map.svg#unix"></use></svg>
+							<svg role="img" title="Gulp.js" class="col-lg-2 col-md-2 col-sm-4 col-xs-4"><use xlink:href="public/img/map.svg#gulpjs"></use></svg>
+							<svg role="img" title="Docker" class="col-lg-2 col-md-2 col-sm-4 col-xs-4"><use xlink:href="public/img/map.svg#docker"></use></svg>
+							<svg role="img" title="Jira" class="col-lg-2 col-md-2 col-sm-4 col-xs-4"><use xlink:href="public/img/map.svg#jira"></use></svg>
+						</div>
+						<div class="row">
+							<svg role="img" title="Adobe Illustrator" class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-offset-2"><use xlink:href="public/img/map.svg#ai"></use></svg>
+							<svg role="img" title="Photoshop" class="col-lg-2 col-md-2 col-sm-4 col-xs-4"><use xlink:href="public/img/map.svg#ps"></use></svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="no-padding" id="projects">
+	    <div class="container-fluid">
+	    	<h2 class="section-header">Projects</h2>
+	    	<hr class="primary">
+	        <div class="row no-gutter popup-gallery">
+	            <div class="col-lg-4 col-sm-6">
+	                <a href="#" class="portfolio-box">
+	                    <img src="public/img/placeholder.png" class="img-responsive" alt="">
+	                    <div class="portfolio-box-caption">
+	                        <div class="portfolio-box-caption-content">
+	                            <div class="project-category text-faded">
+	                                Category
+	                            </div>
+	                            <div class="project-name">
+	                                Project Name
+	                            </div>
+	                        </div>
+	                    </div>
+	                </a>
+	            </div>
+	            <div class="col-lg-4 col-sm-6">
+	                <a href="#" class="portfolio-box">
+	                    <img src="public/img/placeholder.png" class="img-responsive" alt="">
+	                    <div class="portfolio-box-caption">
+	                        <div class="portfolio-box-caption-content">
+	                            <div class="project-category text-faded">
+	                                Category
+	                            </div>
+	                            <div class="project-name">
+	                                Project Name
+	                            </div>
+	                        </div>
+	                    </div>
+	                </a>
+	            </div>
+	            <div class="col-lg-4 col-sm-6">
+	                <a href="#" class="portfolio-box">
+	                    <img src="public/img/placeholder.png" class="img-responsive" alt="">
+	                    <div class="portfolio-box-caption">
+	                        <div class="portfolio-box-caption-content">
+	                            <div class="project-category text-faded">
+	                                Category
+	                            </div>
+	                            <div class="project-name">
+	                                Project Name
+	                            </div>
+	                        </div>
+	                    </div>
+	                </a>
+	            </div>
+	            <div class="col-lg-4 col-sm-6">
+	                <a href="#" class="portfolio-box">
+	                    <img src="public/img/placeholder.png" class="img-responsive" alt="">
+	                    <div class="portfolio-box-caption">
+	                        <div class="portfolio-box-caption-content">
+	                            <div class="project-category text-faded">
+	                                Category
+	                            </div>
+	                            <div class="project-name">
+	                                Project Name
+	                            </div>
+	                        </div>
+	                    </div>
+	                </a>
+	            </div>
+	            <div class="col-lg-4 col-sm-6">
+	                <a href="#" class="portfolio-box">
+	                    <img src="public/img/placeholder.png" class="img-responsive" alt="">
+	                    <div class="portfolio-box-caption">
+	                        <div class="portfolio-box-caption-content">
+	                            <div class="project-category text-faded">
+	                                Category
+	                            </div>
+	                            <div class="project-name">
+	                                Project Name
+	                            </div>
+	                        </div>
+	                    </div>
+	                </a>
+	            </div>
+	            <div class="col-lg-4 col-sm-6">
+	                <a href="#" class="portfolio-box">
+	                    <img src="public/img/placeholder.png" class="img-responsive" alt="">
+	                    <div class="portfolio-box-caption">
+	                        <div class="portfolio-box-caption-content">
+	                            <div class="project-category text-faded">
+	                                Category
+	                            </div>
+	                            <div class="project-name">
+	                                Project Name
+	                            </div>
+	                        </div>
+	                    </div>
+	                </a>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+
+	<section class="bg-primary" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 class="section-heading">About</h2>
+					<hr class="primary">
+					<p>Howdy, I'm Kyle! I'm a Cuban-American, born and raised in SoCal. You can often find me watching live music at a wide array of concerts and festivals. If I'm not at a concert, I'm either coding away, watching Arsenal Football Club, or eating Taco Bell ("Taco Bae" as I so fondly refer to it).</p>
+					<p>I really enjoy making full stack web applications, experimenting with data visualization, and challenging myself to learn new technologies. I'll be graduating in June from the University of Oregon with a B.S. in Computer Information Science and a minor in Business Administration. Most importantly, I'm looking for a job! If you need a developer, please feel free to contact me.</p>
+					<img src="public/img/me.jpg" alt="My pretty face." class="img-responsive center-block img-circle" width="250px">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="bg-primary" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 class="section-heading">Contact</h2>
+					<hr class="primary">
+					<div class="icons">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+								<a href="public/Resume_Feb2017.pdf"><svg role="img" aria-label="See my Resume in PDF format" title="My Resume"><use xlink:href="public/img/map.svg#pdf"></use></svg></a>
+							</div>
+							
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+								<a href="https://www.github.com/kylemh"><svg role="img" aria-label="See my GitHub Account: kylemh" title="My GitHub"><use xlink:href="public/img/map.svg#github"></use></svg></a>
+							</div>
+
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+								<a href="https://www.linkedin.com/in/kylemh"><svg role="img" aria-label="See my LinkedIn Account: kylemh" title="My LinkedIn"><use xlink:href="public/img/map.svg#linkedin"></use></svg></a>
+							</div>
+
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+								<a href="mailto:kylemh.email@gmail.com"><svg role="img" aria-label="Send me an email: kylemh.email@gmail.com" title="My Email"><use xlink:href="public/img/map.svg#email"></use></svg></a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<script src="dist/js/main.min.js"></script>
-<!-- 	<script src="/path/to/svg4everybody.js"></script>
-	<script>svg4everybody();</script> -->
+</body>
+</html>

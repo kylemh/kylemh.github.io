@@ -1,0 +1,144 @@
+/*
+ * SAVE THESE JUST IN CASE
+ */
+
+/* Media Queries */
+/*@media only screen and (max-width: 767px) {
+	.navbar-brand {
+		transform: translateX(-50%);
+		left: 50%;
+		position: absolute;
+	}
+}*/
+
+/* ------ iPhone 4/4S, 5/5S, 6, 6+ ------ */
+/* Portrait and Landscape */
+/*@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	.navbar-brand {
+		transform: translateX(-50%);
+		left: 50%;
+		position: absolute;
+	}
+	h1 {
+		padding-top: 150px;
+		font-size: 8rem;
+	}
+
+	h2 {
+		font-size: 6rem;
+	}
+}*/
+
+/* Portrait and Landscape */
+/*@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+	.navbar-brand {
+		transform: translateX(-50%);
+		left: 50%;
+		position: absolute;
+	}
+	h1 {
+		padding-top: 150px;
+		font-size: 8rem;
+	}
+	h2 {
+		font-size: 6rem;
+	}
+}*/
+
+/* Portrait and Landscape */
+/*@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+	.navbar-brand {
+		transform: translateX(-50%);
+		left: 50%;
+		position: absolute;
+	}
+	h1 {
+		padding-top: 150px;
+		font-size: 8rem;
+	}
+	h2 {
+		font-size: 6rem;
+	}
+}*/
+
+/* Portrait and Landscape */
+/*@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+	.navbar-brand {
+		transform: translateX(-50%);
+		left: 50%;
+		position: absolute;
+	}
+	h1 {
+		padding-top: 150px;
+		font-size: 8rem;
+	}
+	h2 {
+		font-size: 6rem;
+	}
+}*/
+
+/* ----------- Galaxy S3, S4, S5 ----------- */
+/* Portrait and Landscape */
+/*@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+	.navbar-brand {
+		transform: translateX(-50%);
+		left: 50%;
+		position: absolute;
+	}
+	h1 {
+		padding-top: 150px;
+		font-size: 8rem;
+	}
+	h2 {
+		font-size: 6rem;
+	}
+}*/
+
+/* Portrait and Landscape */
+/*@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+	.navbar-brand {
+		transform: translateX(-50%);
+		left: 50%;
+		position: absolute;
+	}
+	h1 {
+		padding-top: 150px;
+		font-size: 8rem;
+	}
+	h2 {
+		font-size: 6rem;
+	}
+}*/
+
+/* Portrait and Landscape */
+/*@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+	.navbar-brand {
+		transform: translateX(-50%);
+		left: 50%;
+		position: absolute;
+	}
+	h1 {
+		padding-top: 150px;
+		font-size: 8rem;
+	}
+	h2 {
+		font-size: 6rem;
+	}
+}*/
+
+/* ----------- HTC One ----------- */
+/* Portrait and Landscape */
+/*@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+	.navbar-brand {
+		transform: translateX(-50%);
+		left: 50%;
+		position: absolute;
+	}
+	h1 {
+		padding-top: 150px;
+		font-size: 8rem;
+	}
+	h2 {
+		font-size: 6rem;
+	}
+}*/
