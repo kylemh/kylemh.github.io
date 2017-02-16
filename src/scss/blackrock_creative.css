@@ -19,6 +19,9 @@ hr {
 hr.light {
   border-color: white;
 }
+hr.dark {
+  border-color: #222;
+}
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -51,6 +54,9 @@ p {
 }
 .bg-secondary {
   background-color: #333333;
+}
+.bg-white {
+  background-color: #FFF;
 }
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
@@ -152,7 +158,6 @@ aside {
 header {
   position: relative;
   height: 100%;
-  min-height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
