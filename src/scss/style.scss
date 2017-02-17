@@ -1,8 +1,19 @@
+/* ---MEDIA QUERIES--- */
+@media screen and (min-width: 350px) and (max-width: 990px) {
+	svg {
+		padding-bottom: 20px;
+	}
+}
+
+@media screen and (min-width: 991px) {
+	.gd {
+		padding-top: 20px;
+	}
+}
+
 /* -------STYLES------- */
 svg {
 	fill: #FFF;
-	width: auto;
-	padding-bottom: 5%;
 }
 
 svg:hover path {
@@ -22,8 +33,4 @@ path {
 
 .proj-desc {
 	color: #222;
-}
-
-h4 {
-	padding-bottom: 5%;
 }

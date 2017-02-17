@@ -30,8 +30,8 @@ function styles() {
 	.pipe(concat('main.min.css'))
 	.pipe(cleanCSS())
 	.pipe(gulp.dest(paths.styles.dest))
-	.pipe(bsync.stream());
-	// .pipe(bsync.reload({stream:true}));
+	.pipe(bsync.stream())
+	bsync.reload;
 }
 
 // Compress .js files to min.js files and move minified files to distribution directory
@@ -41,15 +41,9 @@ function scripts() {
     .pipe(uglify())
     .pipe(concat('main.min.js'))
     .pipe(gulp.dest(paths.scripts.dest))
-    .pipe(bsync.stream());
-    // .pipe(bsync.reload({stream:true}));
+    .pipe(bsync.stream())
+    bsync.reload;
 }
-
-// Sync browser with project
-// gulp.task('server', function() {
-//      bsync({server: {baseDir: ['./']}})
-//      done();
-// })
 
 // Gulp watcher for realtime changes
 function watch() {
