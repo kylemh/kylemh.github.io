@@ -9,6 +9,24 @@
 	.gd {
 		padding-top: 20px;
 	}
+
+	h1 {
+		font-size: 80px !important;
+	}
+
+	h2 {
+		font-size: 40px !important;
+	}
+
+	.header-content-inner > p {
+		font-size: 30px !important;
+	}
+}
+
+@media screen and (max-width: 340px) {
+	p {
+		font-size: 14px;
+	}
 }
 
 /* -------STYLES------- */
@@ -29,8 +47,20 @@ path {
 
 .img-circle {
 	border: 5px #00bc8c solid;
+	margin-bottom: 20px;
 }
 
 .proj-desc {
 	color: #222;
+}
+
+.italics {
+	font-weight: 400;
+	font-style: italic;
+}
+
+/* FA Icons */
+i {
+	padding-top: 7.5%;
+	padding-bottom: 2.5%;
 }

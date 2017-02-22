@@ -14,7 +14,7 @@ body {
 hr {
   border-color: #00bc8c;
   border-width: 3px;
-  max-width: 50px;
+  max-width: 140px;
 }
 hr.light {
   border-color: white;
@@ -82,14 +82,14 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #00bc8c;
+  color: #000;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #49ac8c;
+  color: #00bc8c;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
