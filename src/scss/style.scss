@@ -30,12 +30,24 @@
 }
 
 /* -------STYLES------- */
+/* TODO: Media Queries for svg {max-width: 200px;} */
 svg {
 	fill: #FFF;
 }
 
-svg:hover path {
+a:hover path {
 	fill: #00bc8c;
+}
+
+a:hover use{
+	fill: #00bc8c;
+}
+
+use {
+	transition: 250ms;
+	transition-timing-function: ease-in-out;
+	-webkit-transition: 250ms;
+	-webkit-transition-timing-function: ease-in-out;
 }
 
 path {
@@ -57,10 +69,4 @@ path {
 .italics {
 	font-weight: 400;
 	font-style: italic;
-}
-
-/* FA Icons */
-i {
-	padding-top: 7.5%;
-	padding-bottom: 2.5%;
 }
