@@ -1,10 +1,16 @@
 /* ---MEDIA QUERIES--- */
+/* Medium Screens */
 @media screen and (min-width: 350px) and (max-width: 990px) {
 	svg {
 		padding-bottom: 20px;
 	}
+
+	.icon {
+		max-width: 150px;
+	}
 }
 
+/* Large Screens */
 @media screen and (min-width: 991px) {
 	.gd {
 		padding-top: 20px;
@@ -23,38 +29,41 @@
 	}
 }
 
-@media screen and (max-width: 340px) {
+/* Small Phones */
+@media (max-width: 340px) {
 	p {
 		font-size: 14px;
+	}
+
+	.icon {
+		max-width: 125px !important;
+	}
+}
+
+/* Landscape Phones */
+@media (max-height: 350px) {
+	header {
+		height: 125%;
 	}
 }
 
 /* -------STYLES------- */
 /* TODO: Media Queries for svg {max-width: 200px;} */
-svg {
-	fill: #FFF;
-}
-
-a:hover path {
+.icon:hover {
 	fill: #00bc8c;
 }
 
-a:hover use{
+.icon {
+	fill: white;
+	transition: 300ms;
+	transition-timing-function: ease-in-out;
+	-webkit-transition: 300ms;
+	-webkit-transition-timing-function: ease-in-out;
+	max-width: 175px;
+}
+
+.icon:hover {
 	fill: #00bc8c;
-}
-
-use {
-	transition: 250ms;
-	transition-timing-function: ease-in-out;
-	-webkit-transition: 250ms;
-	-webkit-transition-timing-function: ease-in-out;
-}
-
-path {
-	transition: 250ms;
-	transition-timing-function: ease-in-out;
-	-webkit-transition: 250ms;
-	-webkit-transition-timing-function: ease-in-out;
 }
 
 .img-circle {
@@ -69,4 +78,8 @@ path {
 .italics {
 	font-weight: 400;
 	font-style: italic;
+}
+
+.icons > div {
+	margin-bottom: 2.5%;
 }
