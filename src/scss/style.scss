@@ -29,6 +29,7 @@
         font-size: 14px;
     }
 
+
     .icon {
         max-width: 125px !important;
     }
@@ -42,7 +43,8 @@
 }
 
 /* -------STYLES------- */
-.icon:hover {
+.icon:hover,
+.icon:touch {
     fill: #00bc8c;
     cursor: pointer;
 }
@@ -76,6 +78,12 @@
 
 .icons > div {
     margin-bottom: 2.5%;
+}
+
+/* Icon Overlay */
+.icon-container {
+    display: inline-block;
+    /*background-color: blue;*/
 }
 
 /* One-page Site Style */
