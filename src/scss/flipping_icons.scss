@@ -12,15 +12,20 @@
     transform-style: preserve-3d;
     height: 150px;
     transform: perspective(400px);
+    -webkit-transform: perspective(400px);
+    -ms-transform: perspective(400px);
 }
 
 .flip-container:hover .icon-container,
 .flip-container.hover .icon-container {
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
 }
 
 .front, .back {
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     position: absolute;
     top: 0;
     left: 0;
@@ -31,11 +36,15 @@
     z-index: 2;
     /* for firefox 31 */
     transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
 }
 
 /* back, initially hidden pane */
 .back {
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
     background: #FFF;
     width: 150px;
     height: 150px;
