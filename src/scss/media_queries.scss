@@ -1,0 +1,63 @@
+/* Medium Screens */
+@media screen and (max-width: 670px) {
+    .flex-container{
+        -ms-flex-direction: column;
+        -webkit-box-orient: vertical;
+        flex-direction: column;
+    }
+}
+
+/* Large Screens */
+@media screen and (min-width: 991px) {
+    .gd {
+        padding-top: 20px;
+    }
+
+    h1 {
+        font-size: 80px !important;
+    }
+
+    h2 {
+        font-size: 40px !important;
+    }
+
+    .header-content-inner > p {
+        font-size: 30px !important;
+    }
+}
+
+/* Small Phones */
+@media (max-width: 340px) {
+    p {
+        font-size: 14px;
+    }
+
+    .flip-container,
+    .back,
+    .icon,
+    .contact-icon
+     {
+        width: 130px !important;
+        height: 130px !important;
+    }
+
+    .icon-container {
+        width: 130px !important;
+        height: 130px !important;
+    }
+
+    .back h6 {
+        font-size: 24px !important;
+    }
+
+    #thank-you h3 {
+        font-size: 18px !important;
+    }
+}
+
+/* Landscape Phones */
+@media (max-height: 350px) {
+    header {
+        height: 130%;
+    }
+}

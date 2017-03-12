@@ -99,7 +99,7 @@
 }
 
 .mfp-preloader {
-  color: #CCC;
+  color: #DDD;
   position: absolute;
   top: 50%;
   width: auto;
@@ -111,7 +111,7 @@
 }
 
 .mfp-preloader a {
-  color: #CCC;
+  color: #DDD;
 }
 
 .mfp-preloader a:hover {
@@ -160,8 +160,8 @@ button::-moz-focus-inner {
   color: #FFF;
   font-style: normal;
   font-size: 28px;
-  font-family: Arial, Baskerville, monospace;
-}
+/*  font-family: Arial, Baskerville, monospace;
+*/}
 
 .mfp-close:hover,
 .mfp-close:focus {
@@ -189,7 +189,7 @@ button::-moz-focus-inner {
   position: absolute;
   top: 0;
   right: 0;
-  color: #CCC;
+  color: #DDD;
   font-size: 12px;
   line-height: 18px;
   white-space: nowrap;
@@ -337,7 +337,7 @@ img.mfp-img {
 }
 
 .mfp-figure small {
-  color: #BDBDBD;
+  color: #EDEDED;
   display: block;
   font-size: 12px;
   line-height: 14px;
@@ -359,7 +359,7 @@ img.mfp-img {
 .mfp-title {
   text-align: left;
   line-height: 18px;
-  color: #F3F3F3;
+  color: #FFFFFF;
   word-wrap: break-word;
   padding-right: 36px;
 }

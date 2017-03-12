@@ -1,0 +1,52 @@
+/* Flipping Icons */
+.flip-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    margin-bottom: 2.5%;
+}
+
+.icon-container {
+    position: relative;
+    transition: all .5s cubic-bezier(0.4, 0.0, 0.2, 1);
+    transform-style: preserve-3d;
+    height: 150px;
+    transform: perspective(400px);
+}
+
+.flip-container:hover .icon-container,
+.flip-container.hover .icon-container {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(180deg);
+    background: #FFF;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    padding-top: 30%;
+    color: #222;
+}
+
+.back h6 {
+    font-weight: 700;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 28px;
+}

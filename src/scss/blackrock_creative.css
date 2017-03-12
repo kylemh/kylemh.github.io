@@ -12,7 +12,7 @@ body {
   font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
 }
 hr {
-  border-color: #00bc8c;
+  border-color: #009966;
   border-width: 3px;
   max-width: 140px;
 }
@@ -29,11 +29,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #00bc8c;
+  color: #009966;
 }
 a:hover,
 a:focus {
-  color: #49ac8c;
+  color: #007744;
 }
 h1,
 h2,
@@ -49,7 +49,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-color {
-  background-color: #00bc8c;
+  background-color: #009966;
 }
 .bg-primary {
   background-color: #222222;
@@ -89,7 +89,7 @@ aside {
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #00bc8c;
+  color: #009966;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
@@ -106,11 +106,11 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #00bc8c;
+  color: #009966;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #00bc8c !important;
+  color: #009966 !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -142,7 +142,7 @@ aside {
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #00bc8c;
+    color: #009966;
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -155,7 +155,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #00bc8c;
+    color: #009966;
   }
 }
 
@@ -245,7 +245,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(0, 188, 140, 0.9);
+  background: rgba(0, 153, 102, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -293,7 +293,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #00bc8c;
+  color: #009966;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -349,7 +349,7 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #00bc8c;
+  background-color: #009966;
   border-color: #000;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -388,11 +388,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #00bc8c;
+  background-color: #009966;
   border-color: #000;
 }
 .btn-primary .badge {
-  color: #00bc8c;
+  color: #009966;
   background-color: white;
 }
 .btn {
