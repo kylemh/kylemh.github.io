@@ -1,89 +1,97 @@
 /* One-page Site Style */
 #skills {
-    height: auto;
+  height: auto;
 }
 
 #projects {
-    height: auto;
+  height: auto;
 }
 
 #about {
-    height: auto;
+  height: auto;
 }
 
 #contact {
-    height: auto;
+  height: auto;
 }
 
 #thank-you {
-    height: 25vh;
-    padding: 5%;
+  height: 25vh;
+  padding: 5%;
 }
 
 .flex-container {
-    display: flex;
-    display: -webkit-box;
-    /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-    display: -ms-flexbox;
+  display: flex !important;
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;
 
-    /* TWEENER - IE 10 */
-    display: -webkit-flex;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
 
-    /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+  /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 
 /* Styles  */
 p {
-    padding-left: 10%;
-    padding-right: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .icon {
-    fill: #FFFFFF;
-    transition: 0.3s;
-    max-width: 150px;
+  fill: #FFFFFF;
+  transition: 0.3s;
+  max-width: 150px;
+  filter: drop-shadow(5px 5px 5px #000);
 }
 
 .img-circle {
-    border: 5px #009966 solid;
-    margin-bottom: 20px;
+  border: 5px #009966 solid;
+  margin-bottom: 20px;
 }
 
 .proj-desc {
-    color: #222;
+  color: #222;
 }
 
 .italics {
-    font-weight: 400;
-    font-style: italic;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .job-hunting {
-    font-weight: 700;
-    font-size: 16px;
-    border-bottom: 1px solid white;
-    padding: 1px;
+  font-weight: 700;
+  font-size: 16px;
+  border-bottom: 1px solid white;
+  padding: 1px;
 }
 
 .icons {
-    height: 150px;
+  height: 150px;
 }
 
 .icons > div {
-    margin-bottom: 2.5%;
+  margin-bottom: 2.5%;
 }
 
-.contact-link {
-    width: 150px;
-    height: 150px;
-    margin: 20px;
+.contact-links .contact-icon {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  filter: none;
+}
+
+.contact-icon svg {
+  width: 100px;
+  height: 100px;
+  filter: none;
 }
 
 a:hover .icon {
-    fill: #009966;
+  fill: #009966;
 }
