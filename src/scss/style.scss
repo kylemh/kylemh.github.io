@@ -47,7 +47,6 @@ p {
   fill: #FFFFFF;
   transition: 0.3s;
   max-width: 150px;
-  filter: drop-shadow(5px 5px 5px #000);
 }
 
 .img-circle {
@@ -89,7 +88,6 @@ p {
 .contact-icon svg {
   width: 100px;
   height: 100px;
-  filter: none;
 }
 
 a:hover .icon {
