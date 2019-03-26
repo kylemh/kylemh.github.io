@@ -36,7 +36,6 @@
   align-items: center;
 }
 
-
 /* Styles  */
 p {
   padding-left: 10%;
@@ -44,7 +43,7 @@ p {
 }
 
 .icon {
-  fill: #FFFFFF;
+  fill: #ffffff;
   transition: 0.3s;
   max-width: 150px;
 }
@@ -92,4 +91,13 @@ p {
 
 a:hover .icon {
   fill: #009966;
+}
+
+.professional-exp {
+  margin-top: 3rem;
+
+  ol {
+    margin: 0 auto;
+    max-width: 400px;
+  }
 }
