@@ -1,3 +1,5 @@
-<h1>Personal Portfolio Website</h1>
+# Personal Portfolio Website
 
-<h2>Live @ <a href="https://kylemh.com">kylemh.com</a></h2>
+## Live @ [kylemh.com](https://kylemh.com)
+
+**Unique aspects:** cached SVG implementation and a hand-written Gulp script. 
